@@ -60,7 +60,7 @@ bottom: 10%;
 
 }
 
-/* Op het gebied van visuele hierarchie valt deze knop erg op. Want als de gebruiker er overheen hoverd wordt deze knop bruin en dat valt op*/
+/* Op het gebied van visuele hierarchie valt deze knop erg op. Want als de gebruiker er overheen hoverd wordt deze knop bruin en dat valt op.*/
 
 .knop:hover {
   background-color: brown;
