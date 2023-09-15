@@ -15,6 +15,7 @@ html {
 
 }
 
+/* Dit is het midden van het boek, door middel van het rode vlak dat ik nu gebruik weet ik waar ik de visiftekaartjes moet plaatsen*/
 body {
   width: 1000px;
   height: 600px;
@@ -33,7 +34,7 @@ article {
   align-items: center;
 }
 
-
+/* De IMG zorgt ervoor dat de foto van het boek precies in het midden zit. Ook zorgt deze code ervoor dat er niet meer gescrolled kan worden*/
 img {
   height: 100vh;
   width: 100%;
@@ -47,6 +48,7 @@ margin-right: 2em;
 bottom: 10%;
 
 }
+/* Dit zijn de afmetingen, kleuren en vorm van de knoppen*/.
 .knop {
   padding: 0 20px;
   font-size: 3rem;
@@ -58,7 +60,7 @@ bottom: 10%;
 
 }
 
-
+/* Op het gebied van visuele hierarchie valt deze knop erg op. Want als de gebruiker er overheen hoverd wordt deze knop bruin en dat valt op*/
 
 .knop:hover {
   background-color: brown;
