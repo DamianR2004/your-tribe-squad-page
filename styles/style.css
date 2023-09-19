@@ -6,12 +6,65 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url(../assets/wood-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  min-height: 30vh;
+  object-fit: contain;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+
+}
+.book2 {
+  width: 80vh;
+  background-color: blue;
+  background-color: #EEE1C6;
+  height: max-content;
+  border: 7px solid;
+  border-color: black;
+
+}
+
+.page{
+  background-color: white;
+  padding: 5px 15px;
+}
+
+
+.book-container {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 button {
   background-color: transparent;
   border-color: transparent;
   font-size: 2em;
+  margin-top: 1em;
 
 }
 
@@ -20,49 +73,18 @@ button:active{
   background-color: beige;
   border: 1px ;
 }
-.book {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  background-color: #EEE1C6;
-  width: 60vw;
-  height: min-height;
-  border: 7px solid;
-  border-color: black;
-}
 
-.book > .page {
-  background-color: white;
-  height: 30rem;
-}
 
-.navigation {
-  grid-column: span 2;
+
+
+
+.nav {
   display: flex;
   justify-content: space-between;
+  padding: 10px 20px;
 }
 
 @media screen and (max-width: 700px) {
-  .book {
-    grid-template-columns: 1fr;
-    gap: 1;
-  }
-  .book > .left {
-    display: none;
-  }
-}
-
-.foto{
-  margin-top: 1em;
-  margin-left: 1em;
- 
-}
-
-.card-text{
-  opacity: 0;
-  transition: 0.4s ease-out;
-}
-
-.card:hover .card-text{
-  opacity: 1;
+  
+  
 }
