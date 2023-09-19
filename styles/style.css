@@ -15,10 +15,16 @@ a{
   text-decoration: none;
 }
 img {
-  width: 100%;
+  width: 20vw;
   height: auto;
   min-height: 30vh;
-  object-fit: contain;
+  border: solid dodgerblue 1px;
+
+}
+img:hover{
+
+  
+  
 }
 
 h1 {
@@ -51,6 +57,7 @@ h2 {
 .page{
   background-color: white;
   padding: 5px 15px;
+
 }
 
 
@@ -88,3 +95,12 @@ button:active{
   
   
 }
+
+h2{
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+
+}
+
