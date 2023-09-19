@@ -9,18 +9,25 @@ body {
 }
 
 button {
-  background-color: blue;
-  border-color: blueviolet;
-  border-radius: 100%;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 2em;
+
+}
+
+
+button:active{
+  background-color: beige;
+  border: 1px ;
 }
 .book {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  background-color: red;
+  background-color: #EEE1C6;
   width: 60vw;
   height: min-height;
-  border: 2px solid;
+  border: 7px solid;
   border-color: black;
 }
 
@@ -35,18 +42,27 @@ button {
   justify-content: space-between;
 }
 
-.demo-image {
-  height: 10rem;
-  width: 100%;
-  background-color: black;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .book {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 1;
   }
   .book > .left {
     display: none;
   }
+}
+
+.foto{
+  margin-top: 1em;
+  margin-left: 1em;
+ 
+}
+
+.card-text{
+  opacity: 0;
+  transition: 0.4s ease-out;
+}
+
+.card:hover .card-text{
+  opacity: 1;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <header>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Visite kaartenboek</title>
@@ -12,32 +12,54 @@
       href="styles/style.css"
     />
     <script src="main.js"></script>
-  </header>
+  </head>
 
   <body>
     <h1>Squadbook</h1>
     <div class="book">
       <div class="page left">
         <div class="card">
-          <h2>member 1</h2>
-          <div class="demo-image"></div>
+           
+            <div class="card-text">
+              <h3>Hallo</h3>
+            </div>
+            <div class="foto">
+            <a href="https://damianr2004.github.io/your-tribe-profile-card/">
+              <img src="./assets/boek.png" alt=""
+              width= "400px"
+              height="400px">
+            </a>
+            </div>
+
+
         </div>
       </div>
       <div class="page right">
+        <div class="card">
         <h2>member 2</h2>
-        <div class="demo-image"></div>
+        <iframe
+          id="damian"
+          src="https://damianr2004.github.io/your-tribe-profile-card/"
+          width="400px"
+          height="350px"
+        >
+        </iframe>
       </div>
+      </div>
+
       <div class="navigation">
-        <div>
-          <button>
-            links
-            <div class="links"></div>
-          </button>
-        </div>
-        <div>
-          <button>rECHTS</button>
-        </div>
+        <button>
+          <div class="links"></div>
+          <i class="fa-solid fa-chevron-left fa-bounce"></i>
+        </button>
+        <button>
+          <i class="fa-solid fa-chevron-right fa-bounce"></i>
+        </button>
       </div>
     </div>
+    <script
+      src="https://kit.fontawesome.com/a88ce536bf.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
