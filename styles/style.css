@@ -49,6 +49,8 @@ h2 {
 .page img {
   max-width: 100%;
   max-height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   width: auto;
   height: auto;
   border-radius: 5px;
