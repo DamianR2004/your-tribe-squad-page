@@ -15,9 +15,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  color: white;
-}
+/* kleur en positie van de H2*/
 
 h2 {
   color: black;
@@ -31,20 +29,23 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 .book2 {
+  /*  kleur, rand en kleuren van de basis van het boek*/
   width: 80vh;
-  background-color: blue;
   background-color: #eee1c6;
   height: max-content;
   border: 7px solid;
   border-color: black;
 }
 
+/* kleur van de linker en rechter page, deze zijn natuurlijk wit*/
 .page {
   background-color: white;
   padding: 5px 15px;
 }
 
+/* dit zorgt ervoor dat het plaatje op onze pagina past, de radius zorgt ervoor dat het iets curved*/
 .page img {
   max-width: 100%;
   max-height: 100%;
@@ -59,6 +60,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* kleur en formaat van onze buttons*/
 button {
   background-color: transparent;
   border-color: transparent;
@@ -66,10 +68,7 @@ button {
   margin-top: 1em;
 }
 
-button:active {
-  background-color: beige;
-  border: 1px;
-}
+/* zorgt ervoor dat de knoppen uit elkaar staan*/
 
 .nav {
   display: flex;
@@ -80,11 +79,14 @@ button:active {
 @media screen and (max-width: 700px) {
 }
 
+/* lettertype van onze H2*/
 h2 {
   font-size: 2em;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+/* Formaat, letterrtpe en kleur van onze knoppen*/
 
 h3 {
   display: flex;
@@ -96,11 +98,3 @@ h3 {
   color: black;
 }
 
-.nav1 button {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  font-size: inherit;
-  color: inherit;
-  cursor: pointer;
-}
